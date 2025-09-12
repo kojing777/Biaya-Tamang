@@ -14,6 +14,6 @@
 // age=20;
 // console.log("i am",age,"year old");
 
-var kojing="bijaya"
-var kojing="kojing"
-console.log(kojing)
+// var kojing="bijaya"
+// var kojing="kojing"
+// console.log(kojing)
