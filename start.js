@@ -10,6 +10,10 @@
 // city="kojingar";
 // console.log("i live in",city);
 
-let age;
-age=20;
-console.log("i am",age,"year old");
+// let age;
+// age=20;
+// console.log("i am",age,"year old");
+
+var kojing="bijaya"
+var kojing="kojing"
+console.log(kojing)
