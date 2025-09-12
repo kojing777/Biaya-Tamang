@@ -67,3 +67,18 @@
 // let Name = "Bijaya";
 // let name = "Ram";
 // console.log(Name, name);
+
+// let colour="sky blue";
+// console.log(colour);
+
+// const BirthYear="2003";
+// conslole.log(BirthYear);
+
+// conslole.log(x);
+// let x=10;
+
+// const Fruits=["apple","banana","mango","orange"];
+// console.log(Fruits);
+
+// const Person={name:"kojing",age:20};
+// console.log(Person);
