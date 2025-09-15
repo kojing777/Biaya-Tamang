@@ -71,5 +71,41 @@ switch (color) {
         console.log("invalid color")
 }
 
-let a = 5;
-let b = 10;
+// let a = 5;
+// let b = 10;
+// let operation = "-"
+// switch (operation) {
+
+//     case "-":
+//         console.log(a - b)
+//         break;
+
+
+// }
+
+// let a = 5;
+// let b = 10;
+// let operation = "/"
+// switch (operation) {
+//     case "/":
+//         console.log(a / b)
+//         break;
+// }
+
+// let a = 5;
+// let b = 10;
+// let operation = "*"
+// switch (operation) {
+//     case "*":
+//         console.log(a * b)
+//         break;
+// }
+
+// let a = 5;
+// let b = 10;
+// let operation = "%"
+// switch (operation) {
+//     case "%":
+//         console.log(a % b)
+//         break;
+// }
