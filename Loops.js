@@ -11,9 +11,20 @@
 // }
 
 // do while loops
-let j = 6;
-do {
-    console.log(j);
-    j++;
-} while (j <= 10);
+// let j = 6;
+// do {
+//     console.log(j);
+//     j++;
+// } while (j <= 10);
+
+for (let i = 1; i <= 5; i++) {
+    if (i === 3) {
+        continue;  // skip 3
+    }
+    if (i === 5) {
+        break;  // stop at 5
+    }
+    console.log(i);
+}
+
 
