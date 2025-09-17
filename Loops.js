@@ -38,3 +38,27 @@
 //     console.log(j);
 //     j++;
 // }
+
+//do while loop
+// let k=1;
+// do{
+//     console.log(k);
+//     k++;
+// }while (k<=29);
+
+//exercise
+for (let q=1;q<=10;q++){
+    console.log(q);
+}
+
+let q=1;
+while (q<=10){
+    console.log(q);
+    q++;
+}
+
+let r=1;
+do{
+    console.log(r);
+    r++;
+}while (r<=10);
