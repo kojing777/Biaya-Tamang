@@ -17,12 +17,24 @@
 //     j++;
 // } while (j <= 10);
 
-for (let i = 1; i <= 5; i++) {
-    if (i === 3) {
-        continue;  
-    }
-    if (i === 5) {
-        break; 
-    }
-    console.log(i);
-}
+// for (let i = 1; i <= 5; i++) {
+//     if (i === 3) {
+//         continue;  
+//     }
+//     if (i === 5) {
+//         break; 
+//     }
+//     console.log(i);
+// }
+
+//for loop
+// for (let i =1; i =>10; i++){
+//     console.log(i);
+// }
+
+//while loop
+// let j=1;
+// while (j <=10){
+//     console.log(j);
+//     j++;
+// }
