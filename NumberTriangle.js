@@ -13,3 +13,12 @@ for (let j=1;j<=5;j++){
     }
     console.log(column);
 }
+
+for(k=1;k<=5;k++){
+    k=5
+    let row='';
+    for(let j=1;j<=k;j++){
+        row+=j+' ';
+    }
+    console.log(row);
+}
