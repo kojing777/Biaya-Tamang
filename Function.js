@@ -51,21 +51,28 @@ hiUser('lama');
 hiUser("bijaya");
 
 
-function lama(thar){
-    console.log("kojing"+thar)
+function lama(thar) {
+    console.log("kojing" + thar)
 }
 lama(" moktan");
 
 
-function koko(coco){
-    console.log('lolo',coco)
+function koko(coco) {
+    console.log('lolo', coco)
 
 }
 koko('momo');
 
 
-function hi(bijaya){
-    console.log("hi",bijaya)
+function hi(bijaya) {
+    console.log("hi", bijaya)
 }
 hi('lama');
 hi('kojing moktan');
+
+
+function sum(a, b) {
+    return a + b;
+}
+let total = sum(5, 7);
+console.log("total is:", total);
