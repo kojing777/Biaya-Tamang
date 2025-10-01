@@ -55,3 +55,17 @@ function lama(thar){
     console.log("kojing"+thar)
 }
 lama(" moktan");
+
+
+function koko(coco){
+    console.log('lolo',coco)
+
+}
+koko('momo');
+
+
+function hi(bijaya){
+    console.log("hi",bijaya)
+}
+hi('lama');
+hi('kojing moktan');
