@@ -17,3 +17,21 @@
 // }
 // let sum = add(5, 7);
 // console.log("Sum is:", sum);
+
+function greet(){
+    console.log("Hello, Bijaya!");
+}
+greet();
+
+function kojing(){
+console.log("Hello, Kojing!");
+console.log("Hello, Kojing!");
+}
+kojing();
+
+function add(){
+    console.log('hi from kojing moktan');
+    console.log('hi from kojing moktan');
+}
+add();
+add();
