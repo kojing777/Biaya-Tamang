@@ -76,3 +76,22 @@ function sum(a, b) {
 }
 let total = sum(5, 7);
 console.log("total is:", total);
+
+function sum1(x, y) {
+    return x + y;
+}
+let allTotal = sum1(10, 20);
+console.log("allTotal is:", allTotal);
+
+
+const square = (n) => n * n;
+console.log(square(5));
+
+
+let factorial = function fact(n) {
+    if (n <= 1) return 1;
+    return n * fact(n - 1);
+} 
+console.log(factorial(5));
+
+//ES6 Features - Arrow Functions
