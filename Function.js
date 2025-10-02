@@ -84,8 +84,8 @@ let allTotal = sum1(10, 20);
 console.log("allTotal is:", allTotal);
 
 
-const square = (n) => n * n;
-console.log(square(5));
+// const square = (n) => n * n;
+// console.log(square(5));
 
 
 let factorial = function fact(n) {
@@ -116,3 +116,13 @@ function isAudult(age){
     return age < 17;
 }
 console.log(isAudult(29))
+
+function square(n){
+    return n*n;
+
+}
+function sumOfSquare(a,b){
+    return square(a)+square(b);
+
+}
+console.log(sumOfSquare(5,6));
