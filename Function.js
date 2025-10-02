@@ -136,22 +136,32 @@
 
 //practice
 
-function maxOfTwo(a,b){
-    if (a >b){
+function maxOfTwo(a, b) {
+    if (a > b) {
         return a;
 
-    }else{
+    } else {
         return b
     }
 }
-console.log(maxOfTwo(10,20))
+console.log(maxOfTwo(10, 20))
 
-function factorial(n){
+// function factorial(n){
+//     let result = 1;
+//     for(let i = 1;i<=n;i++){
+//         result *=i;
+//     }
+//     return result
+
+// }
+// console.log(factorial(5))
+
+
+function factorial(n) {
     let result = 1;
-    for(let i = 1;i<=n;i++){
-        result *=i;
+    for (let i = 1; i <= n; i++) {
+        result *= i;
     }
-    return result
-
+    return result;
 }
-console.log(factorial(5))
+console.log(factorial(6))
