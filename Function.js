@@ -95,3 +95,12 @@ let factorial = function fact(n) {
 console.log(factorial(5));
 
 //ES6 Features - Arrow Functions
+const multiply = function (x,y){
+    return x*y
+}
+console.log(multiply(4,5))
+
+function FullName(first,last){
+    return first + ' ' +last; 
+}
+console.log(FullName('bijaya','tamang'))
