@@ -111,3 +111,8 @@ function greet(name = 'guest'){
 }
 console.log(greet())
 console.log(greet('bijaya'))
+
+function isAudult(age){
+    return age < 17;
+}
+console.log(isAudult(29))
