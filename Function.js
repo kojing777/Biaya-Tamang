@@ -126,3 +126,10 @@ function sumOfSquare(a,b){
 
 }
 console.log(sumOfSquare(5,6));
+
+//arrow function 
+const double =(n)=> n*2;
+console.log(double(8));
+
+const sayHi = ()=> console.log('ki!!!')
+sayHi();
