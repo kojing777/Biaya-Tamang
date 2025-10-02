@@ -104,3 +104,10 @@ function FullName(first,last){
     return first + ' ' +last; 
 }
 console.log(FullName('bijaya','tamang'))
+
+
+function greet(name = 'guest'){
+    return `hello,${name}`;
+}
+console.log(greet())
+console.log(greet('bijaya'))
