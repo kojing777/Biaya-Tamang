@@ -222,19 +222,30 @@
 //     return price + quantity;
 // }
 // console.log('totalsum is:', totalSum(9000, 9000))
-//Grade Calculator
-function grade(score) {
-    if (score >= 90) return "A";
-    else if (score >= 75) return 'B';
-    else if (score >= 50) return 'C';
-    else return 'F';
-}
-console.log(grade(90));
 
-function marks(score) {
-    if (score >= 90) return "You got A"
-    else if (score >= 70) return "You got B"
-    else if (score = 50) return "You got C"
-    else return "You are fail so do hard get hard"
+
+//Grade Calculator
+// function grade(score) {
+//     if (score >= 90) return "A";
+//     else if (score >= 75) return 'B';
+//     else if (score >= 50) return 'C';
+//     else return 'F';
+// }
+// console.log(grade(90));
+
+// function marks(score) {
+//     if (score >= 90) return "You got A"
+//     else if (score >= 70) return "You got B"
+//     else if (score = 50) return "You got C"
+//     else return "You are fail so do hard get hard"
+// }
+// console.log(marks(20))
+
+//Temperature Converter
+function celciusToFahrenheit(celsius){
+    return (celsius * 9/5) + 32;
+
 }
-console.log(marks(20))
+console.log(celciusToFahrenheit(50))
+console.log(celciusToFahrenheit(90))
+console.log(celciusToFahrenheit(10000))
