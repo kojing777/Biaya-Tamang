@@ -176,7 +176,7 @@
 // function isPalindrome(str){
 //     let reversed = str.split('').reverse().join('')
 //     return str === reversed;
-    
+
 // }
 // console.log(isPalindrome('madam'))
 // console.log(isPalindrome('hello'))
@@ -197,11 +197,28 @@
 // fibonacci(7);
 
 //ATM Balance Checker
-function chckBalance (balance,withdraw){
-    if(withdraw > balance){
-        return 'insufficient balance !';
-    }else{
-        return `withdrawal succeccfull. remainng balance:${balance-withdraw}`;
+// function chckBalance(balance, withdraw) {
+//     if (withdraw > balance) {
+//         return 'insufficient balance !';
+//     } else {
+//         return `withdrawal succeccfull. remainng balance:${balance - withdraw}`;
 
-    }
-}console.log(chckBalance(1000,5555))
+//     }
+// } console.log(chckBalance(1000, 5555))
+
+//Shopping Cart (calculate total price)
+// function totalPrice(price, quantity) {
+//     return price * quantity;
+
+// }
+// console.log('total is:', totalPrice(200 , 3))
+
+// function totalAmount(price,quantity){
+//     return price * quantity;
+// }
+// console.log('total amount is:',totalAmount(300,399))
+
+function totalSum(price, quantity) {
+    return price + quantity;
+}
+console.log('totalsum is:', totalSum(9000, 9000))
