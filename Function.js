@@ -242,10 +242,22 @@
 // console.log(marks(20))
 
 //Temperature Converter
-function celciusToFahrenheit(celsius){
-    return (celsius * 9/5) + 32;
+// function celciusToFahrenheit(celsius){
+//     return (celsius * 9/5) + 32;
 
+// }
+// console.log(celciusToFahrenheit(50))
+// console.log(celciusToFahrenheit(90))
+// console.log(celciusToFahrenheit(10000))
+
+//Simple Calculator (using switch inside function)
+function calculator (a,b,operator){
+    switch (operator){
+        case '+': return a+b;
+        case '*': return a*b;
+        case '%': return a%b;
+        default : return 'invalid operator'
+    }
 }
-console.log(celciusToFahrenheit(50))
-console.log(celciusToFahrenheit(90))
-console.log(celciusToFahrenheit(10000))
+console.log(calculator(10,5,'+'))
+console.log(calculator(90,90,'%'))
