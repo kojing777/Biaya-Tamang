@@ -230,3 +230,11 @@ function grade(score) {
     else return 'F';
 }
 console.log(grade(90));
+
+function marks(score) {
+    if (score >= 90) return "You got A"
+    else if (score >= 70) return "You got B"
+    else if (score = 50) return "You got C"
+    else return "You are fail so do hard get hard"
+}
+console.log(marks(20))
