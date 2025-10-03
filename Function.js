@@ -170,3 +170,15 @@ const reverseString = (str)=>{
     return str.split('').reverse().join('');
 }
 console.log(reverseString('hello'))
+console.log(reverseString('kojing'))
+
+//isPalindrome
+function isPalindrome(str){
+    let reversed = str.split('').reverse().join('')
+    return str === reversed;
+    
+}
+console.log(isPalindrome('madam'))
+console.log(isPalindrome('hello'))
+
+//fibonacci
