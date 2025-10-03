@@ -218,7 +218,15 @@
 // }
 // console.log('total amount is:',totalAmount(300,399))
 
-function totalSum(price, quantity) {
-    return price + quantity;
+// function totalSum(price, quantity) {
+//     return price + quantity;
+// }
+// console.log('totalsum is:', totalSum(9000, 9000))
+//Grade Calculator
+function grade(score) {
+    if (score >= 90) return "A";
+    else if (score >= 75) return 'B';
+    else if (score >= 50) return 'C';
+    else return 'F';
 }
-console.log('totalsum is:', totalSum(9000, 9000))
+console.log(grade(90));
