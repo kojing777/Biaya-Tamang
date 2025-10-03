@@ -136,15 +136,15 @@
 
 //practice
 
-function maxOfTwo(a, b) {
-    if (a > b) {
-        return a;
+// function maxOfTwo(a, b) {
+//     if (a > b) {
+//         return a;
 
-    } else {
-        return b
-    }
-}
-console.log(maxOfTwo(10, 20))
+//     } else {
+//         return b
+//     }
+// }
+// console.log(maxOfTwo(10, 20))
 
 // function factorial(n){
 //     let result = 1;
@@ -157,28 +157,41 @@ console.log(maxOfTwo(10, 20))
 // console.log(factorial(5))
 
 
-function factorial(n) {
-    let result = 1;
-    for (let i = 1; i <= n; i++) {
-        result *= i;
-    }
-    return result;
-}
-console.log(factorial(6))
+// function factorial(n) {
+//     let result = 1;
+//     for (let i = 1; i <= n; i++) {
+//         result *= i;
+//     }
+//     return result;
+// }
+// console.log(factorial(6))
 
-const reverseString = (str)=>{
-    return str.split('').reverse().join('');
-}
-console.log(reverseString('hello'))
-console.log(reverseString('kojing'))
+// const reverseString = (str)=>{
+//     return str.split('').reverse().join('');
+// }
+// console.log(reverseString('hello'))
+// console.log(reverseString('kojing'))
 
 //isPalindrome
-function isPalindrome(str){
-    let reversed = str.split('').reverse().join('')
-    return str === reversed;
+// function isPalindrome(str){
+//     let reversed = str.split('').reverse().join('')
+//     return str === reversed;
     
-}
-console.log(isPalindrome('madam'))
-console.log(isPalindrome('hello'))
+// }
+// console.log(isPalindrome('madam'))
+// console.log(isPalindrome('hello'))
 
 //fibonacci
+function fibonacci(n){
+    let a = 0,b=1;
+    console.log(a);
+    console.log(b);
+
+    for (let i =3;i<=n;i++){
+        let next = a+b;
+        console.log(next);
+        a=b;
+        b=next;
+    }
+}
+fibonacci(7);
